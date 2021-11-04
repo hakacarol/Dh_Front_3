@@ -1,8 +1,9 @@
-const Footer = ({banana}) => { //props.empresa
+import './style.css';
+
+const Footer = ({empresa}) => { 
     return(
         <footer>
-            {/* props.empresa.nome */}
-            <h3>{banana.nome}</h3> 
+            <h4>{empresa.nome}</h4> 
         </footer>
     )
 }

@@ -2,13 +2,16 @@ import './style.css';
 
 const Header = () => {
     return(
-        <header>
-            <img src="" alt="" />
+        <header id="header">
+            <div className="logo">
+                <img src="https://cdn3.iconfinder.com/data/icons/food-set-3/91/Food_C228-256.png" alt="logo_donut" />
+                <h2>DOG & COFFEE.shop</h2>
+            </div>
             <nav>
                 <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Saiba mais</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li>Sobre</li>
+                    <li>Menu</li>
+                    <li>Contato</li>
                 </ul>
             </nav>
         </header>

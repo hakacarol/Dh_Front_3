@@ -1,11 +1,14 @@
 import './style.css';
 //chindren = atributo, nao esquecer
-const Banner = ({children}) => { //props.children pessoa.nome
+//props.children pessoa.nome
+const Banner = ({children}) => { 
     return (
         <>
-            <div className="banner">
+            <div id ="background">
+            <div id="banner">    
                 <h1>{children}</h1>
-                <button>{children}</button>
+                <button><a href="https://www.youtube.com/embed/B8ITj4UYgcU">TOMAR UM CAUFÉ</a></button> 
+            </div>
             </div>
         </>
 

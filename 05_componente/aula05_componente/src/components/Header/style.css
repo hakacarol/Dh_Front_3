@@ -2,8 +2,46 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
 }
 
-img {
-    width: 5rem;
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: #444b56;
+    color:white;
+    
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+}
+
+header img {
+    width: 3rem;
+    margin: 1rem;
+}
+
+#header ul {
+    display: flex;
+    margin-right: 1rem;
+    column-gap: 3rem;
+    list-style: none; 
+}
+
+@media only screen and (max-width: 515px) {
+    #header ul {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0.3rem;
+        list-style: none; 
+    }
+
+    header img {
+        margin: 0.3rem;
+    }
 }

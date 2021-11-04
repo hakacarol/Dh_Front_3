@@ -6,16 +6,15 @@ import Header from './components/Header';
 
 function App() {
   const empresa = {
-    nome: "Minha empresa",
-    cnpj: "6546545465"
+    nome: "dog&coffee.shop",
   }
   return (
     <div className="App">
       <Header/>
-      // props.children
-      <Banner>Frutas</Banner>
-      // props 
-      <Footer banana={empresa} ></Footer>
+      {/*props.children */}
+      <Banner>Bora tomar um cafézin?</Banner>
+      {/* props  */}
+      <Footer empresa={empresa} ></Footer>
     </div>
   );
 }

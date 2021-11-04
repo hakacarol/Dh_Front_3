@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    background-color: #444b56;
+    color:white;
+    text-align: left;
+    
+}
+
+footer h4 {
+    margin-left: 1rem;
+}

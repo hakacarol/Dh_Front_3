@@ -21,7 +21,7 @@ const Header = ({ empresa }) => {
                 <a className="nav-link" href="#galeria">Projetos</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#footerfooter">Contatos</a>
+                <a className="nav-link" href="#footer">Contatos</a>
               </li>
             </ul>
           </div>
